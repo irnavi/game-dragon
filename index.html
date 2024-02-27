@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>RPG - Dragon Repeller</title>
+</head>
+<body>
+    <div id="game">
+        <div id="stats">
+            <span class="stat">Опыт: 
+                <strong>
+                    <span id="xpText">0</span>
+                </strong>
+            </span>
+
+            <span class="stat">Здоровье:
+                <strong>
+                    <span id="healthText">100</span>
+                </strong>
+            </span>
+
+            <span class="stat">Золото: 
+                <strong>
+                    <span id="goldText">50</span>
+                </strong>
+            </span>
+        </div>
+
+        <div id="controls">
+            <button id="button1">Иди в магазин</button>
+            <button id="button2">Иди в пещеру</button>
+            <button id="button3">Сразись с драконом</button>
+        </div>
+
+        <div id="monsterStats">
+                <span class="stat">Имя монстра:          
+                    <strong>
+                       <span id="monsterName"></span>
+                   </strong>
+                </span>
+                <span class="stat">Здоровье:  
+                    <strong>
+                        <span id="monsterHealth"></span>
+                    </strong>
+                </span>
+        </div>
+
+        <div id="text">
+            Добро пожаловать в Отпугиватель Драконов. Вам нужно победить дракона, который не дает людям покинуть город. Вы находитесь на городской площади. Куда вы хотите пойти? Используйте кнопки сверху.
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
